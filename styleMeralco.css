@@ -1,0 +1,110 @@
+#navbar_meralco{
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+   border-bottom-style: solid green 5px;
+}
+#navbar_meralco1 a{
+    color: black;
+}
+#navbar_meralco1 li:hover{
+    text-decoration: underline orangered 3.5px;
+}
+#navbar_meralco1 li{
+    display: inline-block;
+}
+#Bolt_logo{
+    color: orangered;
+    margin-left: 30px;
+    padding-right: 20px;
+    text-shadow: 10px 8px 12px red;
+}
+#Qzelco_img{
+    width: 100%;
+    height:150px;
+}
+#btnid_search:hover{
+background-color: goldenrod;
+}
+#btnid_search:active{
+    background-color: olive;
+    }
+#Qzelco_titleCard{
+    font-family: "Electrolize";
+    font-size: 3rem;
+}
+#Qzelco_logo{
+    height: 70px;
+    width: 70px;
+}
+#img_icon, #img_icon5, #img_icon6, #img_icon7, #img_icon8{
+    box-shadow: 10px 8px 5px grey;
+   
+}
+#img_icon2{
+    box-shadow: 10px 8px 5px grey;
+   
+}
+#img_icon3{
+    box-shadow: 10px 8px 5px grey;
+ 
+}
+#img_icon4{
+    box-shadow: 10px 8px 5px grey;
+  
+}
+#divIcon_1{
+    display: inline-flexbox;
+    margin: 25px;
+}
+#bodySignupMeralcoClone{
+    background-image: url("https://kiyanelectric.ca/cdn/shop/articles/electrical-maintenance_900x600.jpg?v=1669845826");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Gotham Black";
+   
+}
+.h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+#ElectricalEquipments{
+    height: 600px;
+    width: 90%;
+}
+#signup{
+    height:250px;
+    width: 450px;
+    margin-left: 40%;
+    text-wrap: normal;
+    background-color: bisque;
+    border-radius: 10px;
+}
+#jollibea_signUP{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+#CreateAccountFormDiv{
+   margin-top: 10%;
+    height: max-content;
+    width: max-content;
+    backdrop-filter: blur("15px");
+    margin-bottom: 10px;
+}
+#bodySignUp{
+    background-image: url("https://media.istockphoto.com/id/1344124162/photo/high-voltage-pylons-with-electric-power-lines-transfering-electricity-from-solar-photovoltaic.jpg?s=612x612&w=0&k=20&c=h3QvNmo2GPoi6xXGcYPeOWsbhuN5KNPo46I00aklLjA=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+
+}
+#websiteSignUp{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-self: center;
+}
+#drodown_branches{
+    margin-right: 20px;
+}

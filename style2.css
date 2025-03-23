@@ -1,0 +1,190 @@
+#imageLogo{
+    height: 100px;
+    width: 100px;
+   
+}
+
+#Jollibea{
+    font-family: "jellee";
+    font-size: 50px;
+}
+#navbar1{
+    background-color: rgb(180, 8, 8);
+    font-family: "jellee";
+    color: white;
+}
+#navbar1 a{
+font-family: "jellee";
+    color: white;
+}
+#navbar1 a:hover{
+   text-decoration: underline;
+   background-color: yellow  15px;
+  
+    }
+body{
+   
+  
+}
+#JollibeaSPiel{
+    font-family: "jellee";
+    color: aliceblue;
+    font-size: 75px;
+}
+#div1_body{
+    position: 100px right;
+  
+}
+#descriptionJollibea{
+    font-family: "jellee";
+    justify-content: center;
+}
+#btnDescription{
+    background-color: orangered;
+    border-style: none;
+    border-color: white 5px;
+    max-width: max-content;
+    max-width: max-content;
+    color: aliceblue;
+    border-radius: 40px;
+    margin-right: auto 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+    box-shadow: 2x 1px;
+
+}
+#btnDescription:active{
+    background-color: darkorange;
+}
+#ImgSample{
+ 
+    margin-bottom: 0;
+}
+.imageMenu{
+    margin-left: 0px;
+    display:block;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  
+}
+#menu{
+    font-family: "jellee";
+    border-bottom: ridge;
+}
+#PromoniJollibea{
+    font-family: "jellee";
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+}
+.ImagePromo{
+    height: 500px;
+    width:400px;
+    display: inline-flex;
+    padding-left: 10px;
+}
+#promoNILA{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0;
+}
+#PromoBtn{
+    align-self: baseline;
+    margin-left: 42%;
+}
+#PromoBtnDIv{
+    justify-content: center;
+    align-items: center;
+    
+}
+#featureItems{
+    font-family: "jellee";
+    background-color: peachpuff;
+}
+#featuredItemsDiv{
+    background-color: peachpuff;
+}
+#footerIndex{
+    font-family: "jellee";
+    font-size: 10px;
+    margin-top: 0;
+   
+}
+#signup{
+    height: max-content;
+    width: fit-content;
+    backdrop-filter: blur(10px);
+    border: grey 8px;
+    border-radius: 6px;
+    margin-top: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#bodySignup{
+    background-image: url("https://th.bing.com/th/id/OIP.geRCt71h0ZftFA8uOoAXowHaEE?rs=1&pid=ImgDetMain");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#jollibea_signUP{
+    font-family: "Jellee";
+    font-size: 50px;
+}
+.nav-menu li{
+    list-style: none;
+}
+.nav-menu li:hover{
+    text-decoration: underline red 5px;
+    
+}
+#description_signUP{
+    position:static;
+    top: 0;
+}
+#adminPanel{
+    height: 100%;
+    position: fixed;
+}
+#menu_sign{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#burger_div{
+    font-family: "Jellee";
+   
+    margin-bottom: 20px;
+}
+#Burger_1{
+    height: 250px;
+}
+#Div_burger1{
+    border-style:ridge ;
+    height: max-content;
+}
+#Div_burger1:hover{
+    scale: 1.025;
+    box-shadow: 8px 5px 3px lightpink;
+}
+#Div_burger2:hover{
+    scale: 1.025;
+    box-shadow: 8px 5px 3px lightpink;
+}
+#Div_burger3:hover{
+    scale: 1.025;
+    box-shadow: 8px 5px 3px lightpink;
+}
+#Div_burger2{
+    border-style:ridge ;
+    height: max-content;
+}
+#Div_burger3{
+    border-style:ridge ;
+    height: max-content;
+}
+.text-lead{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#order_summary{
+    width:450px;
+    border-style: ridge;
+    height: max-content;
+}
+
