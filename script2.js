@@ -12,6 +12,11 @@ $(document).ready(function(){
                          Order_burger_1.toString();
                             $("#order_list").append("<p>"+ Order_burger_1.toString() + "pcs burger #1", "</p>");
      })
+     //code for deletion of input burger quantity
+     $("#clear_order_burger1").click(function(){
+        $("#Order_burger_1").val("");
+     })
+        
      $("#btn_order_burger2").click(function(){
         
         var Order_burger_2 = $("#Order_burger_2").val();
@@ -62,6 +67,7 @@ $(document).ready(function(){
                          $("#btn_order_clear").click(function(){
                             $("#order_list").empty();
                          });
+
                         });                      
 
 btnLogin.addEventListener("click",function(){
