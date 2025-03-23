@@ -6,11 +6,11 @@ function signup(){
 }
 
 $(document).ready(function(){
-    $("#btn_order_burger1").click(function(){
+             $("#btn_order_burger1").click(function(){
         
-    var Order_burger_1 = $("#Order_burger_1").val();
-    Order_burger_1.toString();
-        $("#order_list").append("<p>"+ Order_burger_1.toString() + "pcs burger #1", "</p>");
+                    var Order_burger_1 = $("#Order_burger_1").val();
+                         Order_burger_1.toString();
+                            $("#order_list").append("<p>"+ Order_burger_1.toString() + "pcs burger #1", "</p>");
      })
      $("#btn_order_burger2").click(function(){
         
@@ -21,8 +21,12 @@ $(document).ready(function(){
          $("#btn_order_burger3").click(function(){
         
             var Order_burger_3 = $("#Order_burger_3").val();
-            Order_burger_1.toString();
+            Order_burger_3.toString();
                 $("#order_list").append("<p>"+ Order_burger_3.toString() + "pcs burger #3", "</p>");
+                if(Order_burger_3.length<1){
+                    alert("invalid input");
+                 
+                }
              })
              //this is the code for the soda order
              $("#btn_order_soda1").click(function(){
@@ -48,13 +52,17 @@ $(document).ready(function(){
                             let order_confirm=confirm("proceed to payment?");
                             if(order_confirm==true){
                                 swal("Order Confirmed", " ", "success");
-                               
-                            }
+                          $("#order_list").removeChild();              
+                                     }
                             else{
                                 swal("Order Cancelled", " ", "error");
                             }
+                       
                          });
-});
+                         $("#btn_order_clear").click(function(){
+                            $("#order_list").empty();
+                         });
+                        });                      
 
 btnLogin.addEventListener("click",function(){
   let username_txt=username.value;
