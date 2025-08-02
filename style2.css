@@ -22,10 +22,7 @@ font-family: "jellee";
    background-color: yellow  15px;
   
     }
-body{
-   
-  
-}
+
 #JollibeaSPiel{
     font-family: "jellee";
     color: aliceblue;
@@ -120,7 +117,7 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #bodySignup{
-    background-image: url("https://th.bing.com/th/id/OIP.geRCt71h0ZftFA8uOoAXowHaEE?rs=1&pid=ImgDetMain");
+    background-image: url("https://cloudkitchens.com/_gatsby/file/b1353b19906a1722db41a01f47b70b30/Fast-Food.jpeg?u=https%3A%2F%2Fcloudkitchblog.wpenginepowered.com%2Fwp-content%2Fuploads%2FFast-Food.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,5 +183,11 @@ body{
     width:450px;
     border-style: ridge;
     height: max-content;
+}
+#jollibea_signUP{
+    font-family: "jellee";
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
 }
 
